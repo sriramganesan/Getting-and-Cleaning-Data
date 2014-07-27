@@ -1,0 +1,11 @@
+README.md - Overview file for understanding the project
+
+1. Create a folder called 'projectdata' under current working directory (usually \users\<username> on Mac)
+2. Unzip the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+3. Make sure all files, subfolders and files under sub folder are unzipped under 'projectdata' directory
+4. Create run_analysis.R code module in R Studio
+5. Copy run_analysis.R script in the current working directory
+6. Run run_analysis.R
+7. Two output files would be generated in the current working directory:
+merged_dataset.txt  - merged & cleaned data set of subjets, activities and features
+data_set_with_mean.txt - second indepedent tidy data set
